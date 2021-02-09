@@ -36,4 +36,7 @@ def get_citations_needed_report(url):
     print(str_of_results)
     return str_of_results
 
-get_citations_needed_report(url)
+# print(get_citations_needed_report(url))
+
+for_testing = get_citations_needed_report(url)
+
